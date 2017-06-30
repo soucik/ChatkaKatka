@@ -1,0 +1,64 @@
+body{
+    background-color: green;
+    background-image: url(Images/Weather/sunset21.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: top; 
+    background-attachment: fixed;
+}
+
+#base{
+    background-image: url(Images/Cottage/main1440.png);         
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: top; 
+    background-attachment: fixed;
+}
+
+.inner{
+    background: rgba(35, 45, 115, 0.80);
+    color: white;
+    padding: 40px;
+    padding-bottom: 60px;
+    box-shadow: 10px 10px 5px rgba(6, 1, 1, 0.43)
+}
+
+h1{
+    text-align: center;
+}
+
+.btn{
+    width: 100%;
+    border-radius: 0px;
+}
+
+.form-control{
+    border-radius: 0px;
+    background-color: rgba(23, 3, 3, 0.48);
+    color: white;
+    border-radius:1px solid #291212
+}
+
+@media(max-height: 717px){
+  .inner{
+    margin-top: 200px;
+  }
+}
+
+.outer {
+    display: table;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.middle {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.inner {
+    background: rgba(89, 115, 85, 0.80);
+    color: ghostwhite;
+    box-shadow: 10px 10px 5px rgba(6, 1, 1, 0.43)
+}
