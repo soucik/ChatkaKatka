@@ -15,28 +15,8 @@ body{
     background-attachment: fixed;
 }
 
-.inner{
-    background: rgba(35, 45, 115, 0.80);
-    color: white;
-    padding: 40px;
-    padding-bottom: 60px;
-    box-shadow: 10px 10px 5px rgba(6, 1, 1, 0.43)
-}
-
 h1{
     text-align: center;
-}
-
-.btn{
-    width: 100%;
-    border-radius: 0px;
-}
-
-.form-control{
-    border-radius: 0px;
-    background-color: rgba(23, 3, 3, 0.48);
-    color: white;
-    border-radius:1px solid #291212
 }
 
 @media(max-height: 717px){
