@@ -1,44 +1,79 @@
 body{
+    background: url(Images/Weather/night8.jpg) top no-repeat;
     background-color: green;
-    background-image: url(Images/Weather/sunset21.jpg);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-position: top; 
-    background-attachment: fixed;
 }
 
 #base{
-    background-image: url(Images/Cottage/main1440.png);         
+    background: url(Images/Cottage/main1440.png) top no-repeat;
+}
+
+body, #base{
     background-size: 100%;
-    background-repeat: no-repeat;
-    background-position: top; 
-    background-attachment: fixed;
+    /*background-position: top;*/
+    background-attachment: local;
 }
 
 h1{
     text-align: center;
 }
 
-@media(max-height: 717px){
-  .inner{
-    margin-top: 200px;
-  }
-}
-
-.outer {
+.outer{
     display: table;
     position: absolute;
     height: 100%;
     width: 100%;
 }
 
-.middle {
+.middle{
     display: table-cell;
     vertical-align: middle;
 }
 
-.inner {
-    background: rgba(89, 115, 85, 0.80);
+.inner{
+    background-size: 100%;
+    background-color: rgba(51, 91, 150, 0.80);
+    /*background: rgba(35, 45, 115, 0.80);*/
+    color: white;
+    box-shadow: 10px 10px 5px rgba(6, 1, 1, 0.43);
+    padding: 40px;
+}
+
+.innerMenu{
+    background: rgba(140, 111, 61, 0.90);
     color: ghostwhite;
-    box-shadow: 10px 10px 5px rgba(6, 1, 1, 0.43)
+    box-shadow: 10px 10px 5px rgba(6, 1, 1, 0.63);
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+@media(max-height: 717px){
+.innerMenu{
+    margin-top: 200px;
+    }
+}
+
+@media(max-width: 767px){
+.inner{
+    background-image: url(Images/Cottage/bgcottage2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+}
+nav.navbar{
+    margin-bottom: 0px;
+    border-bottom: 0px;
+}
+
+a.navbar-brand{
+    color: ghostwhite;
+}
+
+.navbar-nav>li>a{
+    color: ghostwhite;
+    font-size: 22px;
+}
+
+.nav>li>a:focus, .nav>li>a:hover {
+    text-decoration: none;
+    background: rgba(51, 91, 150, 0.80);
 }
