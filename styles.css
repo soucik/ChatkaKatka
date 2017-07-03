@@ -13,7 +13,7 @@ body, #base{
     background-attachment: local;
 }
 
-h1{
+h1, h4{
     text-align: center;
 }
 
@@ -46,19 +46,32 @@ h1{
     border-top-right-radius: 12px;
 }
 
-@media(max-height: 717px){
-.innerMenu{
-    margin-top: 200px;
+.inner.copy{
+    background-color: rgba(60, 70, 140, 0.80);
     }
-}
 
-@media(max-width: 767px){
-.inner{
+@media(max-width: 768px){
+.ctxbackground{
     background-image: url(Images/Cottage/bgcottage2.png);
     background-repeat: no-repeat;
     background-size: cover;
     }
+.innerMenu{
+    margin-top: 240px;
 }
+.inner.copy{
+    margin-top: 40px;
+    }
+}
+
+@media(min-width: 768px){
+.inner.copy{
+    position: absolute;
+    bottom: 0vh;
+    padding-top: 0px;
+    }
+}
+
 nav.navbar{
     margin-bottom: 0px;
     border-bottom: 0px;
