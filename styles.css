@@ -1,20 +1,23 @@
 body{
-    background: url(Images/Weather/night8.jpg) top no-repeat;
+    background: url('Images/Weather/sun51.jpg') top no-repeat;
     background-color: green;
 }
 
 #base{
-    background: url(Images/Cottage/main1440.png) top no-repeat;
+    background: url('Images/Cottage/main1440treeColor.png') top no-repeat;
 }
 
 body, #base{
     background-size: 100%;
-    /*background-position: top;*/
     background-attachment: local;
 }
 
 h1, h4{
     text-align: center;
+}
+
+h3{
+    line-height: 150%;
 }
 
 .outer{
@@ -30,6 +33,7 @@ h1, h4{
 }
 
 .inner{
+    font-family: 'Atma', cursive;
     background-size: 100%;
     background-color: rgba(51, 91, 150, 0.80);
     /*background: rgba(35, 45, 115, 0.80);*/
@@ -39,8 +43,8 @@ h1, h4{
 }
 
 .innerMenu{
+    font-family: 'IM Fell French Canon SC', serif;
     background: rgba(140, 111, 61, 0.90);
-    color: ghostwhite;
     box-shadow: 10px 10px 5px rgba(6, 1, 1, 0.63);
     border-top-left-radius: 12px;
     border-top-right-radius: 12px;
@@ -50,9 +54,15 @@ h1, h4{
     background-color: rgba(60, 70, 140, 0.80);
     }
 
+.ctxbackground .inner>*>a{
+    color: orange;
+    background-color: transparent; 
+    text-decoration: none;
+}
+
 @media(max-width: 768px){
 .ctxbackground{
-    background-image: url(Images/Cottage/bgcottage2.png);
+    background-image: url('Images/Cottage/bgcottage2.png');
     background-repeat: no-repeat;
     background-size: cover;
     }
@@ -79,6 +89,7 @@ nav.navbar{
 
 a.navbar-brand{
     color: ghostwhite;
+    font-weight: bold;
 }
 
 .navbar-nav>li>a{
@@ -86,7 +97,7 @@ a.navbar-brand{
     font-size: 22px;
 }
 
-.nav>li>a:focus, .nav>li>a:hover {
+.nav>li>a:focus, .nav>li>a:hover{
     text-decoration: none;
     background: rgba(51, 91, 150, 0.80);
 }
