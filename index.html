@@ -17,8 +17,9 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
     crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.3/socket.io.js"></script>
   <script src="scripts/main.js"></script>
-
+  
 </head>
 
 <body>
@@ -44,7 +45,7 @@
           <h1>Chatka Katka</h1>
           <h3>Chatka Katka je celodrevená chata situovaná v&nbsp;okrajovej časti Liptovského Mikuláša len 4&nbsp;km od <a href="http://www.tatralandia.sk/"
               target="blank">Aquaparku&nbsp;Tatralandia</a> a&nbsp;13&nbsp;km od <a href="http://www.besenova.com/" target="blank">Thermalparku&nbsp;Bešeňová</a>.
-            Do centra mesta je to 10&nbsp;minút chôdzou. V&nbsp;okolí Liptovského Mikuláša je veľa <a href="https://mapy.hiking.sk/?ref=&zoom=12&lat=6289939.04104&lon=2182492.302&layers=B0000FFFTTFTTTTTFTTFFTTT"
+              Do centra mesta je to 10&nbsp;minút chôdzou. V&nbsp;okolí Liptovského Mikuláša je veľa <a href="https://mapy.hiking.sk/?ref=&zoom=12&lat=6289939.04104&lon=2182492.302&layers=B0000FFFTTFTTTTTFTTFFTTT"
               target="blank">Horských&nbsp;chodníkov</a> vhodných na turistiku. 1&nbsp;km od chatky je vodná nádrž <a href="http://www.liptovska-mara.sk/"
               target="blank">Liptovská&nbsp;Mara</a>.
           </h3>
@@ -60,11 +61,20 @@
       <div id="activeContent">
         <div id="chatContent">
         </div>
-        <input type="text" id="chatInput">
+
+        <form class="form-inline">
+          <div class="form-group">
+            <label class="control-label">Meno: </label>
+            <input class="form-control" type="text" id="chatInput"/>
+            <input type="button" type="submit" id="datasend" value="Potvrdiť">
+          </div>
+        </form>
       </div>
     </div>
+    
     <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#chatWindow" id="questionButton">Mám otázku</button>
-  </div>
+ 
+ </div>
 
 </body>
 
