@@ -27,7 +27,7 @@ body{
 }
 
 #chatHeader{
-    background-color: green;
+    background-color: #545f21;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     text-align: center;
@@ -50,7 +50,7 @@ body, #base{
     background-attachment: local;
 }
 
-h1, h4{
+h2, h4{
     text-align: center;
 }
 
@@ -73,11 +73,13 @@ h3{
 .inner{
     font-family: 'Atma', cursive;
     background-size: 100%;
-    background-color: rgba(51, 91, 150, 0.80);
+    background-color: rgba(52, 72, 116, 0.9);
     /*background: rgba(35, 45, 115, 0.80);*/
     color: white;
     box-shadow: 10px 10px 5px rgba(6, 1, 1, 0.43);
     padding: 40px;
+    padding-bottom: 0px;
+    /* padding-top: 0px; */
 }
 
 .innerMenu{
@@ -93,9 +95,10 @@ h3{
 }
 
 .ctxbackground .inner>*>a{
-    color: orange;
+    color: #ffd07c;
     background-color: transparent; 
     text-decoration: none;
+    text-transform: uppercase;
 }
 
 @media(max-width: 768px){
@@ -107,8 +110,13 @@ h3{
 .innerMenu{
     margin-top: 240px;
 }
-.inner.copy{
+footer.inner.copy{
     margin-top: 40px;
+    padding-bottom: 40px;
+
+    position: absolute;
+    bottom: 0vh;
+    padding-top: 0px;
 }
 #chatWindow{
     width: 85%;
@@ -117,10 +125,10 @@ h3{
 }
 
 @media(min-width: 768px){
-.inner.copy{
-    position: absolute;
+footer{
+    /* position: absolute;
     bottom: 0vh;
-    padding-top: 0px;
+    padding-top: 0px; */
     }
 }
 nav.navbar{
@@ -137,5 +145,54 @@ a.navbar-brand{
 }
 .nav>li>a:focus, .nav>li>a:hover{
     text-decoration: none;
-    background: rgba(51, 91, 150, 0.80);
+    background: rgba(51, 91, 150, 0.85);
 }
+
+img{
+    width: 30px;
+    margin-top:5px;
+    margin-right:10px;
+}
+
+.table>tbody>tr>td.collapsable{
+    border-top: 0px;
+}
+
+.table>tbody>tr[data-toggle=collapse]>td, .table>thead>tr>th{
+    color:#ffd07c;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: normal;
+}
+.table>tbody>tr[data-toggle=collapse]>td{
+    cursor: pointer;
+
+}
+.table>tbody>tr>td{
+    border-top-color: #797979;
+    padding-left: 25px;
+    font-size: 18px;
+    /* padding-right: 25px; */
+    /* background-color: black; */
+}
+p{
+  font-size: 18px;
+}
+
+.my-gallery {
+    width: 100%;
+    float: left;
+  }
+  .my-gallery img {
+    width: 100%;
+    height: auto;
+  }
+  .my-gallery figure {
+    display: block;
+    float: left;
+    margin: 0 5px 5px 0;
+    width: 150px;
+  }
+  .my-gallery figcaption {
+    display: none;
+  }
