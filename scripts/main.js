@@ -86,7 +86,7 @@ $().ready(function () {
     });
     var datetime = new Date();
     var resolver = new ImageNameResolver(datetime);
-    $('body').css({ 'background': 'url(' + resolver.getFullPath() + ')  no-repeat', 'background-size': '100% auto', 'background-color': '#545f21' });
+    $('body').css({ 'background': 'url(' + resolver.getFullPath() + ')  no-repeat', 'background-size': '100% auto', 'background-color': '#738535' });
 
     var questionButton = $('#questionButton');
     questionButton.one('click', function () {
