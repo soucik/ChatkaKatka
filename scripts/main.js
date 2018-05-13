@@ -1,5 +1,5 @@
 function ImageNameResolver(datetime) { //class definition with constructor
-    this._pathToImages = 'Images/Weather/';
+    this._pathToImages = 'https://raw.githubusercontent.com/soucik/ChatkaKatka/dev/images/weather';
     this._suffixes = new Array('.jpg', '.png');
     this._datetime = datetime;
     this._hour = this._datetime.getHours();

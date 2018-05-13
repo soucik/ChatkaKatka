@@ -1,10 +1,5 @@
-body{
-    /*background: url('Images/Weather/day.jpg') top no-repeat;*/
-    /*background-color: green;*/
-}
-
 #base{
-    background: url('Images/Cottage/main1440treeColor1.png') top no-repeat;
+    background: url('https://raw.githubusercontent.com/soucik/ChatkaKatka/dev/images/photogallery/chata_spredu.png') top no-repeat;
 }
 
 #questionButton{
@@ -104,7 +99,7 @@ h3{
 
 @media(max-width: 768px){
 .ctxbackground{
-    background-image: url('Images/Cottage/bgcottage2.png');
+    background-image: url('images/cottage/bgcottage2.png');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -183,10 +178,19 @@ p{
 .my-gallery {
     width: 100%;
     float: left;
+    border-style: dashed;
+    padding: 10px 0px 10px 10px;
+    border-radius: 0;
+    border-color: #5f9ea04a;
   }
   .my-gallery img {
-    width: 100%;
+    width: auto;
     height: auto;
+    display: block;
+    margin: 0 auto;
+    border: #eeeeee38;
+    border-style: solid;
+    border-width: 1px;
   }
   .my-gallery figure {
     display: block;
