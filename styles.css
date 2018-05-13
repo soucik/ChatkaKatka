@@ -201,3 +201,9 @@ p{
   .my-gallery figcaption {
     display: none;
   }
+
+  @media(max-width: 375px){
+  .my-gallery figure {
+    width: 100%;
+  }
+}
