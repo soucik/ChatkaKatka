@@ -84,6 +84,7 @@ h3{
     box-shadow: 10px 10px 5px rgba(6, 1, 1, 0.63);
     border-top-left-radius: 12px;
     border-top-right-radius: 12px;
+    margin-top: 50%;
 }
 
 .inner.copy{
@@ -103,9 +104,7 @@ h3{
     background-repeat: no-repeat;
     background-size: cover;
 }
-.innerMenu{
-    margin-top: 240px;
-}
+
 footer.inner.copy{
     margin-top: 40px;
     padding-bottom: 40px;
