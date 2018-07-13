@@ -1,71 +1,145 @@
-#base{
+.icon_sprites {
+    background: url('https://raw.githubusercontent.com/soucik/ChatkaKatka/8a9f3478d50f01acfebba934633be5475b804e56/images/sprites/icon_sprites.png');
+    zoom: 0.25;
+    float: left;
+    margin-right: 50px;
+    width: 128px;
+    height: 128px;
+}
+
+.bg-022_televisionW {
+    background-position: 158px -10px;
+}
+
+.bg-024_no_cutleryW {
+    background-position: -306px -306px;
+}
+
+.bg-029_showerW {
+    background-position: -10px -158px;
+}
+
+.bg-029_showerWB {
+    background-position: -158px -158px;
+}
+
+.bg-030_bed_1W {
+    background-position: -306px -10px;
+}
+
+.bg-035_no_smokingW {
+    background-position: -306px -158px;
+}
+
+.bg-036_parkingW {
+    background-position: -10px -306px;
+}
+
+.bg-037_carW {
+    background-position: -158px -306px;
+}
+.bg-038_cocktailW {
+    background-position: -10px -10px;
+}
+
+.bg-039_restroomW {
+    background-position: -454px -10px;
+}
+
+.bg-040_do_not_disturbWB {
+    background-position: -454px -158px;
+}
+
+.bg-006_monitorW {
+    background-position: -454px -306px;
+}
+
+.bg-009_coffee_cupW {
+    background-position: -10px -454px;
+}
+
+.bg-013_no_petsW {
+    background-position: -158px -454px;
+}
+
+.bg-019_informationW {
+    background-position: -306px -454px;
+}
+
+.bg-019_play_trW {
+    background-position: -454px -454px;
+}
+
+#base {
     background: url('https://raw.githubusercontent.com/soucik/ChatkaKatka/dev/images/photogallery/chata_spredu.png') top no-repeat;
 }
 
-#questionButton{
+#questionButton {
     position: fixed;
     right: 15%;
-    z-index: 100; 
-    bottom: 15px; 
+    z-index: 100;
+    bottom: 15px;
     width: 100px;
 }
 
-#chatWindow{
+#chatWindow {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     position: fixed;
-    z-index: 100; 
+    z-index: 100;
     bottom: 50px;
     right: 2%;
     width: 35%;
     /*max-height: 60vh;*/
 }
 
-#chatHeader{
+#chatHeader {
     background-color: #545f21;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     text-align: center;
 }
 
-#activeContent{
+#activeContent {
     padding: 10px;
     margin-top: 0;
     background-color: rgba(245, 245, 245, 0.8);
 }
 
-#chatContent{
+#chatContent {
     background-color: rgba(245, 245, 245, 0.5);
     overflow: auto;
     max-height: 60vh;
 }
 
-body, #base{
+body,
+#base {
     background-size: 100%;
     background-attachment: local;
 }
 
-h2, h4{
+h2,
+h4 {
     text-align: center;
 }
 
-h3{
+h3 {
     line-height: 150%;
 }
 
-.outer{
+.outer {
     display: table;
     position: absolute;
     height: 100%;
     width: 100%;
 }
 
-.middle{
+.middle {
     display: table-cell;
     vertical-align: middle;
 }
 
-.inner{
+.inner {
     font-family: 'Atma', cursive;
     background-size: 100%;
     background-color: rgba(52, 72, 116, 0.9);
@@ -78,7 +152,7 @@ h3{
     margin-bottom: 15px;
 }
 
-.innerMenu{
+.innerMenu {
     font-family: 'IM Fell French Canon SC', serif;
     background: rgba(140, 111, 61, 0.90);
     box-shadow: 10px 10px 5px rgba(6, 1, 1, 0.63);
@@ -87,91 +161,97 @@ h3{
     margin-top: 50%;
 }
 
-.inner.copy{
+.inner.copy {
     background-color: rgba(60, 70, 140, 0.80);
 }
 
-.ctxbackground .inner>*>a{
+.ctxbackground .inner>*>a {
     color: #ffd07c;
-    background-color: transparent; 
+    background-color: transparent;
     text-decoration: none;
     text-transform: uppercase;
 }
 
-@media(max-width: 768px){
-.ctxbackground{
-    background-image: url('images/cottage/bgcottage2.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-footer.inner.copy{
-    margin-top: 40px;
-    padding-bottom: 40px;
-
-    position: absolute;
-    bottom: 0vh;
-    padding-top: 0px;
-}
-#chatWindow{
-    width: 85%;
-    margin: 2%;
+@media(max-width: 768px) {
+    .ctxbackground {
+        background-image: url('images/cottage/bgcottage2.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    footer.inner.copy {
+        margin-top: 40px;
+        padding-bottom: 40px;
+        position: absolute;
+        bottom: 0vh;
+        padding-top: 0px;
+    }
+    #chatWindow {
+        width: 85%;
+        margin: 2%;
     }
 }
 
-@media(min-width: 768px){
-footer{
-    /* position: absolute;
+@media(min-width: 768px) {
+    footer {
+        /* position: absolute;
     bottom: 0vh;
     padding-top: 0px; */
     }
 }
-nav.navbar{
+
+nav.navbar {
     margin-bottom: 0px;
     border-bottom: 0px;
 }
-a.navbar-brand{
+
+a.navbar-brand {
     color: ghostwhite;
     font-weight: bold;
 }
-.navbar-nav>li>a{
+
+.navbar-nav>li>a {
     color: ghostwhite;
     font-size: 22px;
 }
-.nav>li>a:focus, .nav>li>a:hover{
+
+.nav>li>a:focus,
+.nav>li>a:hover {
     text-decoration: none;
     background: rgba(51, 91, 150, 0.85);
 }
 
-img{
+img {
     width: 30px;
-    margin-top:5px;
-    margin-right:10px;
+    margin-top: 5px;
+    margin-right: 10px;
 }
 
-.table>tbody>tr>td.collapsable{
+.table>tbody>tr>td.collapsable {
     border-top: 0px;
 }
 
-.table>tbody>tr[data-toggle=collapse]>td, .table>thead>tr>th{
-    color:#ffd07c;
+.table>tbody>tr[data-toggle=collapse]>td,
+.table>thead>tr>th {
+    color: #ffd07c;
     text-transform: uppercase;
     font-size: 14px;
     font-weight: normal;
 }
-.table>tbody>tr[data-toggle=collapse]>td{
-    cursor: pointer;
 
+.table>tbody>tr[data-toggle=collapse]>td {
+    cursor: pointer;
 }
-.table>tbody>tr>td{
+
+.table>tbody>tr>td {
     border-top-color: #797979;
     padding-left: 25px;
     font-size: 18px;
     /* padding-right: 25px; */
     /* background-color: black; */
 }
-p{
-  font-size: 18px;
+
+p {
+    font-size: 18px;
 }
 
 .my-gallery {
@@ -181,8 +261,9 @@ p{
     padding: 10px 0px 10px 10px;
     border-radius: 0;
     border-color: #5f9ea04a;
-  }
-  .my-gallery img {
+}
+
+.my-gallery img {
     width: auto;
     height: auto;
     display: block;
@@ -190,19 +271,21 @@ p{
     border: #eeeeee38;
     border-style: solid;
     border-width: 1px;
-  }
-  .my-gallery figure {
+}
+
+.my-gallery figure {
     display: block;
     float: left;
     margin: 0 5px 5px 0;
     width: 150px;
-  }
-  .my-gallery figcaption {
-    display: none;
-  }
+}
 
-  @media(max-width: 375px){
-  .my-gallery figure {
-    width: 100%;
-  }
+.my-gallery figcaption {
+    display: none;
+}
+
+@media(max-width: 375px) {
+    .my-gallery figure {
+        width: 100%;
+    }
 }
