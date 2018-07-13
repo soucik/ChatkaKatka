@@ -1,5 +1,5 @@
 .icon_sprites {
-    background: url('https://raw.githubusercontent.com/soucik/ChatkaKatka/8a9f3478d50f01acfebba934633be5475b804e56/images/sprites/icon_sprites.png');
+    background: url('https://raw.githubusercontent.com/soucik/ChatkaKatka/master/images/sprites/icon_sprites.png');
     zoom: 0.25;
     float: left;
     margin-right: 50px;
@@ -8,66 +8,67 @@
 }
 
 .bg-022_televisionW {
-    background-position: 158px -10px;
+    background-position: -110px -60px;
 }
 
 .bg-024_no_cutleryW {
-    background-position: -306px -306px;
+    background-position: -10px -110px;
 }
 
 .bg-029_showerW {
-    background-position: -10px -158px;
+    background-position: -60px -110px;
 }
 
 .bg-029_showerWB {
-    background-position: -158px -158px;
-}
-
-.bg-030_bed_1W {
-    background-position: -306px -10px;
-}
-
-.bg-035_no_smokingW {
-    background-position: -306px -158px;
-}
-
-.bg-036_parkingW {
-    background-position: -10px -306px;
-}
-
-.bg-037_carW {
-    background-position: -158px -306px;
-}
-.bg-038_cocktailW {
     background-position: -10px -10px;
 }
 
+.bg-030_bed_1W {
+    background-position: -160px -10px;
+}
+
+.bg-035_no_smokingW {
+    background-position: -160px -60px;
+}
+
+.bg-036_parkingW {
+    background-position: -160px -110px;
+}
+
+.bg-037_carW {
+    background-position: -10px -160px;
+}
+
+.bg-038_cocktailW {
+    background-position: -60px -160px;
+}
+
 .bg-039_restroomW {
-    background-position: -454px -10px;
+    background-position: -110px -160px;
 }
 
 .bg-040_do_not_disturbWB {
-    background-position: -454px -158px;
+    background-position: -160px -160px;
 }
 
 .bg-006_monitorW {
-    background-position: -454px -306px;
+    background-position: -60px -10px;
 }
 
 .bg-009_coffee_cupW {
-    background-position: -10px -454px;
+    background-position: -110px -110px;
 }
 
 .bg-013_no_petsW {
-    background-position: -158px -454px;
+    background-position: -10px -60px;
 }
 
 .bg-019_informationW {
-    background-position: -306px -454px;
+    background-position: -60px -60px;
 }
 
 .bg-019_play_trW {
-    background-position: -454px -454px;
+    background-position: -110px -10px;
 }
 
 #base {
