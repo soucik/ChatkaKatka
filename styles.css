@@ -1,10 +1,10 @@
 .icon_sprites {
     background: url('https://raw.githubusercontent.com/soucik/ChatkaKatka/master/images/sprites/icon_sprites.png');
-    zoom: 0.5;
+    zoom: 1;
     float: left;
-    margin-right: 50px;
-    width: 60px;
-    height: 60px;
+    margin-right: 25px;
+    width: 30px;
+    height: 30px;
 }
 
 .bg-022_televisionW {
@@ -140,6 +140,10 @@ h3 {
     vertical-align: middle;
 }
 
+#contact-us{
+    text-align: center;
+}
+
 .inner {
     font-family: 'Atma', cursive;
     background-size: 100%;
@@ -148,7 +152,7 @@ h3 {
     color: white;
     box-shadow: 10px 10px 5px rgba(6, 1, 1, 0.43);
     padding: 40px;
-    padding-bottom: 15px;
+    padding-top: 15px;
     /* padding-top: 0px; */
     margin-bottom: 15px;
 }
