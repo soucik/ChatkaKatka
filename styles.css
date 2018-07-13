@@ -1,10 +1,10 @@
 .icon_sprites {
     background: url('https://raw.githubusercontent.com/soucik/ChatkaKatka/master/images/sprites/icon_sprites.png');
-    zoom: 0.25;
+    zoom: 0.5;
     float: left;
     margin-right: 50px;
-    width: 128px;
-    height: 128px;
+    width: 60px;
+    height: 60px;
 }
 
 .bg-022_televisionW {
