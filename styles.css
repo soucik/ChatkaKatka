@@ -144,6 +144,11 @@ h3 {
     text-align: center;
 }
 
+#contact-us
+a:hover, a:visited {
+    color:  #ffeb7c;
+}
+
 .inner {
     font-family: 'Atma', cursive;
     background-size: 100%;

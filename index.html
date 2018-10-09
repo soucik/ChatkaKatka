@@ -2,39 +2,37 @@
 <html lang="sk">
 
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Chatka Katka</title>
-  <link href="https://fonts.googleapis.com/css?family=Atma|IM+Fell+French+Canon+SC" rel="stylesheet">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
-    crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/default-skin/default-skin.css">
-  <link rel="stylesheet" href="styles.css">
-  <link rel="icon" href="images/cottage/bgcottage2.png">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.3/socket.io.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe-ui-default.min.js"></script>
-  <script src="scripts/main.js"></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Chatka Katka</title>
+    <link href="https://fonts.googleapis.com/css?family=Atma|IM+Fell+French+Canon+SC" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/default-skin/default-skin.css">
+    <link rel="stylesheet" href="styles.min.css">
+    <link rel="icon" href="images/cottage/bgcottage2.png">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.3/socket.io.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe-ui-default.min.js"></script>
+    <script src="scripts/main.min.js"></script>
 </head>
 
 <body>
-  <div class="outer" id="base">
-    <div class="row middle">
-      <div class="ctxbackground">
-        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-12 innerMenu">
-          <nav class="navbar">
-            <div class="container-fluid">
-              <div class="navbar-header">
-                <a class="navbar-brand" href="index.html">CHATKA KATKA</a>
-              </div>
-              <ul class="nav navbar-nav">
-                <!-- <li class="active">
+    <div class="outer" id="base">
+        <div class="row middle">
+            <div class="ctxbackground">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-12 innerMenu">
+                    <nav class="navbar">
+                        <div class="container-fluid">
+                            <div class="navbar-header">
+                                <a class="navbar-brand" href="index.html">CHATKA KATKA</a>
+                            </div>
+                            <ul class="nav navbar-nav">
+                                <!-- <li class="active">
                   <a href="#">Vybavenie</a>
                 </li>
                 <li class="active">
@@ -46,420 +44,405 @@
                 <li class="active">
                   <a href="#">Kontakt</a>
                 </li> -->
-              </ul>
-            </div>
-          </nav>
-        </div>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
 
-        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-12 inner">
-          <h2>Stručne o Chatke Katka</h2>
-          <h4>Chatka Katka je celodrevená chata situovaná v&nbsp;okrajovej časti Liptovského Mikuláša len 4&nbsp;km od
-            <a href="http://www.tatralandia.sk/" target="blank">Aquaparku&nbsp;Tatralandia</a> a&nbsp;13&nbsp;km od
-            <a href="http://www.besenova.com/" target="blank">Thermalparku&nbsp;Bešeňová</a>. Do centra mesta je to 10&nbsp;minút chôdzou. V&nbsp;okolí Liptovského Mikuláša
-            je veľa
-            <a href="https://mapy.hiking.sk/?ref=&zoom=12&lat=6289939.04104&lon=2182492.302&layers=B0000FFFTTFTTTTTFTTFFTTT" target="blank">Horských&nbsp;chodníkov</a> vhodných na turistiku. 1&nbsp;km od chatky je vodná nádrž
-            <a href="http://www.liptovska-mara.sk/" target="blank">Liptovská&nbsp;Mara</a>.
-          </h4>
-        </div>
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-12 inner">
+                    <h2>Stručne o Chatke Katka</h2>
+                    <h4>Chatka Katka je celodrevená chata situovaná v&nbsp;okrajovej časti Liptovského Mikuláša len 4&nbsp;km od
+                        <a href="http://www.tatralandia.sk/" target="blank">Aquaparku&nbsp;Tatralandia</a> a&nbsp;13&nbsp;km od
+                        <a href="http://www.besenova.com/" target="blank">Thermalparku&nbsp;Bešeňová</a>. Do centra mesta je to 10&nbsp;minút chôdzou. V&nbsp;okolí Liptovského Mikuláša je veľa
+                        <a href="https://mapy.hiking.sk/?ref=&zoom=12&lat=6289939.04104&lon=2182492.302&layers=B0000FFFTTFTTTTTFTTFFTTT" target="blank">Horských&nbsp;chodníkov</a> vhodných na turistiku. 1&nbsp;km od chatky je vodná nádrž
+                        <a href="http://www.liptovska-mara.sk/" target="blank">Liptovská&nbsp;Mara</a>.
+                    </h4>
+                </div>
 
-        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-12 inner">
-          <h2>Informácie o ubytovaní</h2>
-          <table class="table">
-            <tbody>
-              <tr data-toggle="collapse" data-target="#peopleCount">
-                <td>
-                  <div class="icon_sprites bg-039_restroomW"></div> 2 - 6 ľudí
-                </td>
-                <td>
-                  <div class="icon_sprites bg-030_bed_1W"></div> 2 noci minimálne
-                </td>
-                <td>
-                  <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span>
-                </td>
-              </tr>
-              <tr>
-                <td colspan="3" class="collapsable">
-                  <div id="peopleCount" class="collapse">
-                    <p>Ubytovanie v chatke je vhodné pre páry, rodiny s deťmi ale aj pre partiu kamarátov. </p>
-                    <p>Pokiaľ ste sa našli v riadkoch vyššie a hľadáte ubytovanie pre 2 až 6 ľudí, chatka Katka je ideálna pre
-                      Vás.
-                    </p>
-                    <p>Koľko nocí strávite v chatke je na Vás, minimálne však 2 noci.</p>
-                  </div>
-                </td>
-              </tr>
-              <tr data-toggle="collapse" data-target="#rooms">
-                <td>
-                  <div class="icon_sprites bg-040_do_not_disturbWB"></div> Spálňa
-                </td>
-                <td>
-                  <div class="icon_sprites bg-038_cocktailW"></div> Spoločenská miestnosť
-                </td>
-                <td>
-                  <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span>
-                </td>
-              </tr>
-              <tr>
-                <td colspan="3" class="collapsable">
-                  <div id="rooms" class="collapse">
-                    <p>Spálňa je situovaná na poschodí chaty (4 jednolôžkové postele).</p>
-                    <p>V spoločenskej miestnosti sa pohodlne vyspia 2 ľudia (na veľkom rozkladacom gauči).</p>
-                  </div>
-                </td>
-              </tr>
-              <tr data-toggle="collapse" data-target="#kitchen">
-                <td>
-                  <div class="icon_sprites bg-009_coffee_cupW"></div> Kuchyňa, Terasa
-                </td>
-                <td>
-                  <div class="icon_sprites bg-029_showerWB"></div> Kúpeľňa, Toaleta
-                </td>
-                <td>
-                  <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span>
-                </td>
-              </tr>
-              <tr>
-                <td colspan="3" class="collapsable">
-                  <div id="kitchen" class="collapse">
-                    <p> Samozrejmosťou je kuchynka s tečúcou vodou, keramickou varnou doskou, mikrovlnnou rúrou, chladničkou
-                      a rýchlovarnou kanvicou.</p>
-                    <p> Terasa situovaná do dvora sa nachádza pri vstupe do chatky. </p>
-                    <p>V chatke je kúpeľna a tiež toaleta. Teplá voda je zabezpečená samostatným elektrickým bojlerom.</p>
-                  </div>
-                </td>
-              </tr>
-              <tr data-toggle="collapse" data-target="#place">
-                <td>
-                  <div class="icon_sprites bg-019_play_trW"></div> Záhrada, Ohnisko
-                </td>
-                <td>
-                  <div class="icon_sprites bg-036_parkingW"></div> Parkovanie
-                </td>
-                <td>
-                  <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span>
-                </td>
-              </tr>
-              <tr>
-                <td colspan="3" class="collapsable">
-                  <div id="place" class="collapse">
-                    <p>Chatka je vo dvore oploteného rodinného domu. </p>
-                    <p>Ubytovaní majú okolo chatky k dispozícií veľkú záhradu kde môžu opekať, alebo si grilovať.</p>
-                    <p>Parkovisko pre hostí je hneď vedľa chatky.</p>
-                  </div>
-                </td>
-              </tr>
-              <tr data-toggle="collapse" data-target="#pets">
-                <td>
-                  <div class="icon_sprites bg-013_no_petsW"></div> Bez domácich miláčikov
-                </td>
-                <td>
-                  <div class="icon_sprites bg-035_no_smokingW"></div> Nefajčiarsky objekt
-                </td>
-                <td>
-                  <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span>
-                </td>
-              </tr>
-              <tr>
-                <td colspan="3" class="collapsable">
-                  <div id="pets" class="collapse">
-                    <p>Chatka je určená pre hostí bez domácich zvierat. </p>
-                    <p>Keďže chatka je drevená je v nej zákaz fajčenia. </p>
-                    <p>Chatka nieje bezbariérová. </p>
-                  </div>
-                </td>
-              </tr>
-              <tr data-toggle="collapse" data-target="#eat">
-                <td>
-                  <div class="icon_sprites bg-024_no_cutleryW"></div> Bez stravy
-                </td>
-                <td>&nbsp;
-                </td>
-                <td>
-                  <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span>
-                </td>
-              </tr>
-              <tr>
-                <td colspan="3" class="collapsable">
-                  <div id="eat" class="collapse">
-                    <p>Ubytujúci neposkytuje stravu, avšak v chatke je kuchynka kde si môžete pripraviť obľubené jedlo.</p>
-                    <p>V blízkosti sa nachádza obchod s potravinami.</p>
-                    <p>Ďalšou možnosťou sú reštaurácie či už priamo v Palúdzkej, alebo v centre Liptovského Mikuláša.</p>
-                  </div>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-12 inner">
+                    <h2>Informácie o ubytovaní</h2>
+                    <table class="table">
+                        <tbody>
+                            <tr data-toggle="collapse" data-target="#peopleCount">
+                                <td>
+                                    <div class="icon_sprites bg-039_restroomW"></div> 2 - 6 ľudí
+                                </td>
+                                <td>
+                                    <div class="icon_sprites bg-030_bed_1W"></div> 2 noci minimálne
+                                </td>
+                                <td>
+                                    <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="3" class="collapsable">
+                                    <div id="peopleCount" class="collapse">
+                                        <p>Ubytovanie v chatke je vhodné pre páry, rodiny s deťmi ale aj pre partiu kamarátov. </p>
+                                        <p>Pokiaľ ste sa našli v riadkoch vyššie a hľadáte ubytovanie pre 2 až 6 ľudí, chatka Katka je ideálna pre Vás.
+                                        </p>
+                                        <p>Koľko nocí strávite v chatke je na Vás, minimálne však 2 noci.</p>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr data-toggle="collapse" data-target="#rooms">
+                                <td>
+                                    <div class="icon_sprites bg-040_do_not_disturbWB"></div> Spálňa
+                                </td>
+                                <td>
+                                    <div class="icon_sprites bg-038_cocktailW"></div> Spoločenská miestnosť
+                                </td>
+                                <td>
+                                    <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="3" class="collapsable">
+                                    <div id="rooms" class="collapse">
+                                        <p>Spálňa je situovaná na poschodí chaty (4 jednolôžkové postele).</p>
+                                        <p>V spoločenskej miestnosti sa pohodlne vyspia 2 ľudia (na veľkom rozkladacom gauči).</p>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr data-toggle="collapse" data-target="#kitchen">
+                                <td>
+                                    <div class="icon_sprites bg-009_coffee_cupW"></div> Kuchyňa, Terasa
+                                </td>
+                                <td>
+                                    <div class="icon_sprites bg-029_showerWB"></div> Kúpeľňa, Toaleta
+                                </td>
+                                <td>
+                                    <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="3" class="collapsable">
+                                    <div id="kitchen" class="collapse">
+                                        <p> Samozrejmosťou je kuchynka s tečúcou vodou, keramickou varnou doskou, mikrovlnnou rúrou, chladničkou a rýchlovarnou kanvicou.</p>
+                                        <p> Terasa situovaná do dvora sa nachádza pri vstupe do chatky. </p>
+                                        <p>V chatke je kúpeľna a tiež toaleta. Teplá voda je zabezpečená samostatným elektrickým bojlerom.</p>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr data-toggle="collapse" data-target="#place">
+                                <td>
+                                    <div class="icon_sprites bg-019_play_trW"></div> Záhrada, Ohnisko
+                                </td>
+                                <td>
+                                    <div class="icon_sprites bg-036_parkingW"></div> Parkovanie
+                                </td>
+                                <td>
+                                    <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="3" class="collapsable">
+                                    <div id="place" class="collapse">
+                                        <p>Chatka je vo dvore oploteného rodinného domu. </p>
+                                        <p>Ubytovaní majú okolo chatky k dispozícií veľkú záhradu kde môžu opekať, alebo si grilovať.</p>
+                                        <p>Parkovisko pre hostí je hneď vedľa chatky.</p>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr data-toggle="collapse" data-target="#pets">
+                                <td>
+                                    <div class="icon_sprites bg-013_no_petsW"></div> Bez domácich miláčikov
+                                </td>
+                                <td>
+                                    <div class="icon_sprites bg-035_no_smokingW"></div> Nefajčiarsky objekt
+                                </td>
+                                <td>
+                                    <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="3" class="collapsable">
+                                    <div id="pets" class="collapse">
+                                        <p>Chatka je určená pre hostí bez domácich zvierat. </p>
+                                        <p>Keďže chatka je drevená je v nej zákaz fajčenia. </p>
+                                        <p>Chatka nieje bezbariérová. </p>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr data-toggle="collapse" data-target="#eat">
+                                <td>
+                                    <div class="icon_sprites bg-024_no_cutleryW"></div> Bez stravy
+                                </td>
+                                <td>&nbsp;
+                                </td>
+                                <td>
+                                    <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="3" class="collapsable">
+                                    <div id="eat" class="collapse">
+                                        <p>Ubytujúci neposkytuje stravu, avšak v chatke je kuchynka kde si môžete pripraviť obľubené jedlo.</p>
+                                        <p>V blízkosti sa nachádza obchod s potravinami.</p>
+                                        <p>Ďalšou možnosťou sú reštaurácie či už priamo v Palúdzkej, alebo v centre Liptovského Mikuláša.</p>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
 
-        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-12 inner">
-          <section id="price-list">
-            <header>
-              <h2>Cenník ubytovania</h2>
-            </header>
-            <div class="panel-body">
-              <table class="table hidden-md hidden-lg">
-                <thead>
-                  <tr>
-                    <th class="text-center">Obdobie</th>
-                    <th class="text-center">Cena</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td class="text-center vertical-center">
-                      <strong>Letná mimosezóna</strong>
-                      <br>
-                      <span>od 10 rokov</span>
-                    </td>
-                    <td class="text-center">
-                      <strong>od 9 €</strong>
-                      <span>Osoba / noc</span>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td class="text-center vertical-center">
-                      <strong>Letná mimosezóna</strong>
-                      <br>
-                      <span>od 3 do 10 rokov</span>
-                    </td>
-                    <td class="text-center">
-                      <strong class="green-text">od 6,50 €</strong>
-                      <span>Dieťa / noc</span>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td class="text-center vertical-center">
-                      <strong>Letná sezóna</strong>
-                      <br>
-                      <span>od 10 rokov</span>
-                    </td>
-                    <td class="text-center">
-                      <strong>od 12 €</strong>
-                      <span>Osoba / noc</span>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td class="text-center vertical-center">
-                      <strong>Letná sezóna</strong>
-                      <br>
-                      <span>od 3 do 10 rokov</span>
-                    </td>
-                    <td class="text-center">
-                      <strong>od 9 €</strong>
-                      <span>Dieťa / noc</span>
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
-              <table class="table hidden-xs hidden-sm">
-                <thead>
-                  <tr>
-                    <th>Sezóna</th>
-                    <th class="text-center">Cena</th>
-                    <th class="text-center">Min. počet osôb</th>
-                    <th class="text-center">Min. počet nocí</th>
-                    <th class="text-center">Poznámka</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td>Letná mimosezóna</td>
-                    <td class="text-center">
-                      <span>od 9€ €</span> Osoba / noc</td>
-                    <td class="text-center">2 osoby</td>
-                    <td class="text-center">2 noci</td>
-                    <td class="text-center"> od 10 rokov </td>
-                  </tr>
-                  <tr>
-                    <td>Letná mimosezóna</td>
-                    <td class="text-center">
-                      <span>od 6,50€ €</span> Dieťa / noc</td>
-                    <td class="text-center">2 osoby</td>
-                    <td class="text-center">2 noci</td>
-                    <td class="text-center">
-                      <span>od 3 do 10 rokov
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-12 inner">
+                    <section id="price-list">
+                        <header>
+                            <h2>Cenník ubytovania</h2>
+                        </header>
+                        <div class="panel-body">
+                            <table class="table hidden-md hidden-lg">
+                                <thead>
+                                    <tr>
+                                        <th class="text-center">Obdobie</th>
+                                        <th class="text-center">Cena</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="text-center vertical-center">
+                                            <strong>Letná mimosezóna</strong>
+                                            <br>
+                                            <span>od 10 rokov</span>
+                                        </td>
+                                        <td class="text-center">
+                                            <strong>od 9 €</strong>
+                                            <span>Osoba / noc</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-center vertical-center">
+                                            <strong>Letná mimosezóna</strong>
+                                            <br>
+                                            <span>od 3 do 10 rokov</span>
+                                        </td>
+                                        <td class="text-center">
+                                            <strong class="green-text">od 6,50 €</strong>
+                                            <span>Dieťa / noc</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-center vertical-center">
+                                            <strong>Letná sezóna</strong>
+                                            <br>
+                                            <span>od 10 rokov</span>
+                                        </td>
+                                        <td class="text-center">
+                                            <strong>od 12 €</strong>
+                                            <span>Osoba / noc</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-center vertical-center">
+                                            <strong>Letná sezóna</strong>
+                                            <br>
+                                            <span>od 3 do 10 rokov</span>
+                                        </td>
+                                        <td class="text-center">
+                                            <strong>od 9 €</strong>
+                                            <span>Dieťa / noc</span>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <table class="table hidden-xs hidden-sm">
+                                <thead>
+                                    <tr>
+                                        <th>Sezóna</th>
+                                        <th class="text-center">Cena</th>
+                                        <th class="text-center">Min. počet osôb</th>
+                                        <th class="text-center">Min. počet nocí</th>
+                                        <th class="text-center">Poznámka</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Letná mimosezóna</td>
+                                        <td class="text-center">
+                                            <span>od 9€ €</span> Osoba / noc</td>
+                                        <td class="text-center">2 osoby</td>
+                                        <td class="text-center">2 noci</td>
+                                        <td class="text-center"> od 10 rokov </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Letná mimosezóna</td>
+                                        <td class="text-center">
+                                            <span>od 6,50€ €</span> Dieťa / noc</td>
+                                        <td class="text-center">2 osoby</td>
+                                        <td class="text-center">2 noci</td>
+                                        <td class="text-center">
+                                            <span>od 3 do 10 rokov
                       </span>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>Letná sezóna</td>
-                    <td class="text-center">
-                      <span>od 12€ €</span> Osoba / noc</td>
-                    <td class="text-center">2 osoby</td>
-                    <td class="text-center">2 noci</td>
-                    <td class="text-center">
-                      od 10 rokov </td>
-                  </tr>
-                  <tr>
-                    <td>Letná sezóna</td>
-                    <td class="text-center">
-                      <span>od 9€ €</span> Dieťa / noc</td>
-                    <td class="text-center">2 osoby</td>
-                    <td class="text-center">2 noci</td>
-                    <td class="text-center">
-                      <span>od 3 do 10 rokov
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Letná sezóna</td>
+                                        <td class="text-center">
+                                            <span>od 12€ €</span> Osoba / noc</td>
+                                        <td class="text-center">2 osoby</td>
+                                        <td class="text-center">2 noci</td>
+                                        <td class="text-center">
+                                            od 10 rokov </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Letná sezóna</td>
+                                        <td class="text-center">
+                                            <span>od 9€ €</span> Dieťa / noc</td>
+                                        <td class="text-center">2 osoby</td>
+                                        <td class="text-center">2 noci</td>
+                                        <td class="text-center">
+                                            <span>od 3 do 10 rokov
                       </span>
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
-              <table class="table">
-                <tfoot>
-                  <tr>
-                    <td>
-                      <span class="hidden-md hidden-lg">
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <table class="table">
+                                <tfoot>
+                                    <tr>
+                                        <td>
+                                            <span class="hidden-md hidden-lg">
                         * Minimálne 2 osoby, minimálne 2 noci.
                       </span>
-                      <br>
-                      <span>* Cena ďalej zahŕňa:</span>
-                      <strong> parkovanie a aj ostatné poplatky.</strong>
-                    </td>
-                  </tr>
-                </tfoot>
-              </table>
-              <table class="table">
-                <thead>
-                  <tr>
-                    <th>Zľavy</th>
-                    <th>&nbsp;</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td>
-                      <span>- Deti do 3 rokov</span>
-                    </td>
-                    <td class="text-right">
-                      <span>100 %</span>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <span>- Deti do 10 rokov</span>
-                    </td>
-                    <td class="text-right">
-                      <span>25 %</span>
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-          </section>
-          <section style="height: 50px;">
-          <div id="contact-us">
-            <span>
+                                            <br>
+                                            <span>* Cena ďalej zahŕňa:</span>
+                                            <strong> parkovanie a aj ostatné poplatky.</strong>
+                                        </td>
+                                    </tr>
+                                </tfoot>
+                            </table>
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th>Zľavy</th>
+                                        <th>&nbsp;</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <span>- Deti do 3 rokov</span>
+                                        </td>
+                                        <td class="text-right">
+                                            <span>100 %</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <span>- Deti do 10 rokov</span>
+                                        </td>
+                                        <td class="text-right">
+                                            <span>25 %</span>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </section>
+                    <section style="height: 50px;">
+                        <div id="contact-us">
+                            <span>
               Viac Informácií a kontakt:
             </span>
-            <a target="blank" href="https://www.megaubytovanie.sk/chatka-katka">https://www.megaubytovanie.sk/chatka-katka</a>
-          </div>
-        </section>
-        </div>
+                            <a target="blank" href="https://www.megaubytovanie.sk/chatka-katka">https://www.megaubytovanie.sk/chatka-katka</a>
+                        </div>
+                    </section>
+                </div>
 
-        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-12 inner">
-          <div class="row">
-            <h2>Fotky priestorov chatky</h2>
-          </div>
-          <div class="row">
-            <div class="my-gallery" itemscope itemtype="http://schema.org/ImageGallery">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-12 inner">
+                    <div class="row">
+                        <h2>Fotky priestorov chatky</h2>
+                    </div>
+                    <div class="row">
+                        <div class="my-gallery" itemscope itemtype="http://schema.org/ImageGallery">
 
-              <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-                <a href="https://raw.githubusercontent.com/soucik/ChatkaKatka/dev/images/photogallery/chata_spredu.png"
-                  itemprop="contentUrl" data-size="1000x667">
-                  <img src="https://raw.githubusercontent.com/soucik/ChatkaKatka/dev/images/photogallery/chata_spredu_tn.png" itemprop="thumbnail" alt="Chata spredu" />
-                </a>
-                <figcaption itemprop="caption description">Chata spredu</figcaption>
-              </figure>
-              <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-                <a href="https://raw.githubusercontent.com/soucik/ChatkaKatka/dev/images/photogallery/exterier_chaty.jpg"
-                  itemprop="contentUrl" data-size="1000x750">
-                  <img src="https://raw.githubusercontent.com/soucik/ChatkaKatka/dev/images/photogallery/exterier_chaty_tn.jpg" itemprop="thumbnail" alt="Exteriér chaty" />
-                </a>
-                <figcaption itemprop="caption description">Exteriér chaty</figcaption>
-              </figure>
-              <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-                <a href="https://raw.githubusercontent.com/soucik/ChatkaKatka/dev/images/photogallery/obyvacka_a_schodisko.jpg"
-                  itemprop="contentUrl" data-size="1000x750">
-                  <img src="https://raw.githubusercontent.com/soucik/ChatkaKatka/dev/images/photogallery/obyvacka_a_schodisko_tn.jpg" itemprop="thumbnail" alt="Obývačka a schodisko" />
-                </a>
-                <figcaption itemprop="caption description">Obývačka a schodisko</figcaption>
-              </figure>
-              <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-                <a href="https://raw.githubusercontent.com/soucik/ChatkaKatka/dev/images/photogallery/spolocenska_miestnost_s_jednalenskym_stolom.jpg"
-                  itemprop="contentUrl" data-size="1000x750">
-                  <img src="https://raw.githubusercontent.com/soucik/ChatkaKatka/dev/images/photogallery/spolocenska_miestnost_s_jednalenskym_stolom_tn.jpg" itemprop="thumbnail" alt="Spoločenská miestnosť s jedálenským stolom" />
-                </a>
-                <figcaption itemprop="caption description">Spoločenská miestnosť s jedálenským stolom</figcaption>
-              </figure>
-              <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-                <a href="https://raw.githubusercontent.com/soucik/ChatkaKatka/dev/images/photogallery/vrchne_poschodie_s_postelami.jpg"
-                  itemprop="contentUrl" data-size="562x750">
-                  <img src="https://raw.githubusercontent.com/soucik/ChatkaKatka/dev/images/photogallery/vrchne_poschodie_s_postelami_tn.jpg" itemprop="thumbnail" alt="Vrchné poschodie s postelami" />
-                </a>
-                <figcaption itemprop="caption description">Vrchné poschodie s postelami</figcaption>
-              </figure>
-              <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-                <a href="https://raw.githubusercontent.com/soucik/ChatkaKatka/dev/images/photogallery/vrchne_poschodie_sedacky.jpg"
-                  itemprop="contentUrl" data-size="1000x750">
-                  <img src="https://raw.githubusercontent.com/soucik/ChatkaKatka/dev/images/photogallery/vrchne_poschodie_sedacky_tn.jpg" itemprop="thumbnail" alt="Vrchné poschodie sedačky" />
-                </a>
-                <figcaption itemprop="caption description">Vrchné poschodie sedačky</figcaption>
-              </figure>
-              <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-                <a href="https://raw.githubusercontent.com/soucik/ChatkaKatka/dev/images/photogallery/detail_na_ratanovy_nabytok.jpg"
-                  itemprop="contentUrl" data-size="1000x750">
-                  <img src="https://raw.githubusercontent.com/soucik/ChatkaKatka/dev/images/photogallery/detail_na_ratanovy_nabytok_tn.jpg" itemprop="thumbnail" alt="Detail na ratanový nábytok" />
-                </a>
-                <figcaption itemprop="caption description">Detail na ratanový nábytok</figcaption>
-              </figure>
-              <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-                <a href="https://raw.githubusercontent.com/soucik/ChatkaKatka/dev/images/photogallery/samostatna_postel.jpg"
-                  itemprop="contentUrl" data-size="1000x750">
-                  <img src="https://raw.githubusercontent.com/soucik/ChatkaKatka/dev/images/photogallery/samostatna_postel_tn.jpg" itemprop="thumbnail" alt="Samostatná postel" />
-                </a>
-                <figcaption itemprop="caption description">Samostatná postel</figcaption>
-              </figure>
-              <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-                <a href="https://raw.githubusercontent.com/soucik/ChatkaKatka/dev/images/photogallery/kuchyna_s_drezom.jpg"
-                  itemprop="contentUrl" data-size="1000x750">
-                  <img src="https://raw.githubusercontent.com/soucik/ChatkaKatka/dev/images/photogallery/kuchyna_s_drezom_tn.jpg" itemprop="thumbnail" alt="Kuchyňa s drezom" />
-                </a>
-                <figcaption itemprop="caption description">Kuchyňa s drezom</figcaption>
-              </figure>
-              <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-                <a href="https://raw.githubusercontent.com/soucik/ChatkaKatka/dev/images/photogallery/kupelna_s_toaletou.jpg"
-                  itemprop="contentUrl" data-size="1000x750">
-                  <img src="https://raw.githubusercontent.com/soucik/ChatkaKatka/dev/images/photogallery/kupelna_s_toaletou_tn.jpg" itemprop="thumbnail" alt="Kúpelňa s toaletou" />
-                </a>
-                <figcaption itemprop="caption description">Kúpelňa s toaletou</figcaption>
-              </figure>
-              <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-                <a href="https://raw.githubusercontent.com/soucik/ChatkaKatka/dev/images/photogallery/sprchovy_kut_v_kupelni.jpg"
-                  itemprop="contentUrl" data-size="562x750">
-                  <img src="https://raw.githubusercontent.com/soucik/ChatkaKatka/dev/images/photogallery/sprchovy_kut_v_kupelni_tn.jpg" itemprop="thumbnail" alt="Sprchový kút v kúpeľni" />
-                </a>
-                <figcaption itemprop="caption description">Sprchový kút v kúpeľni</figcaption>
-              </figure>
-              <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-                <a href="https://raw.githubusercontent.com/soucik/ChatkaKatka/dev/images/photogallery/pohlad_z_chaty_na_zahradu.jpg"
-                  itemprop="contentUrl" data-size="562x750">
-                  <img src="https://raw.githubusercontent.com/soucik/ChatkaKatka/dev/images/photogallery/pohlad_z_chaty_na_zahradu_tn.jpg" itemprop="thumbnail" alt="Pohľad z chaty na záhradu" />
-                </a>
-                <figcaption itemprop="caption description">Pohľad z chaty na záhradu</figcaption>
-              </figure>
+                            <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                                <a href="https://raw.githubusercontent.com/soucik/ChatkaKatka/dev/images/photogallery/chata_spredu.png" itemprop="contentUrl" data-size="1000x667">
+                                    <img src="https://raw.githubusercontent.com/soucik/ChatkaKatka/dev/images/photogallery/chata_spredu_tn.png" itemprop="thumbnail" alt="Chata spredu" />
+                                </a>
+                                <figcaption itemprop="caption description">Chata spredu</figcaption>
+                            </figure>
+                            <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                                <a href="https://raw.githubusercontent.com/soucik/ChatkaKatka/dev/images/photogallery/exterier_chaty.jpg" itemprop="contentUrl" data-size="1000x750">
+                                    <img src="https://raw.githubusercontent.com/soucik/ChatkaKatka/dev/images/photogallery/exterier_chaty_tn.jpg" itemprop="thumbnail" alt="Exteriér chaty" />
+                                </a>
+                                <figcaption itemprop="caption description">Exteriér chaty</figcaption>
+                            </figure>
+                            <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                                <a href="https://raw.githubusercontent.com/soucik/ChatkaKatka/dev/images/photogallery/obyvacka_a_schodisko.jpg" itemprop="contentUrl" data-size="1000x750">
+                                    <img src="https://raw.githubusercontent.com/soucik/ChatkaKatka/dev/images/photogallery/obyvacka_a_schodisko_tn.jpg" itemprop="thumbnail" alt="Obývačka a schodisko" />
+                                </a>
+                                <figcaption itemprop="caption description">Obývačka a schodisko</figcaption>
+                            </figure>
+                            <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                                <a href="https://raw.githubusercontent.com/soucik/ChatkaKatka/dev/images/photogallery/spolocenska_miestnost_s_jednalenskym_stolom.jpg" itemprop="contentUrl" data-size="1000x750">
+                                    <img src="https://raw.githubusercontent.com/soucik/ChatkaKatka/dev/images/photogallery/spolocenska_miestnost_s_jednalenskym_stolom_tn.jpg" itemprop="thumbnail" alt="Spoločenská miestnosť s jedálenským stolom" />
+                                </a>
+                                <figcaption itemprop="caption description">Spoločenská miestnosť s jedálenským stolom</figcaption>
+                            </figure>
+                            <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                                <a href="https://raw.githubusercontent.com/soucik/ChatkaKatka/dev/images/photogallery/vrchne_poschodie_s_postelami.jpg" itemprop="contentUrl" data-size="562x750">
+                                    <img src="https://raw.githubusercontent.com/soucik/ChatkaKatka/dev/images/photogallery/vrchne_poschodie_s_postelami_tn.jpg" itemprop="thumbnail" alt="Vrchné poschodie s postelami" />
+                                </a>
+                                <figcaption itemprop="caption description">Vrchné poschodie s postelami</figcaption>
+                            </figure>
+                            <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                                <a href="https://raw.githubusercontent.com/soucik/ChatkaKatka/dev/images/photogallery/vrchne_poschodie_sedacky.jpg" itemprop="contentUrl" data-size="1000x750">
+                                    <img src="https://raw.githubusercontent.com/soucik/ChatkaKatka/dev/images/photogallery/vrchne_poschodie_sedacky_tn.jpg" itemprop="thumbnail" alt="Vrchné poschodie sedačky" />
+                                </a>
+                                <figcaption itemprop="caption description">Vrchné poschodie sedačky</figcaption>
+                            </figure>
+                            <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                                <a href="https://raw.githubusercontent.com/soucik/ChatkaKatka/dev/images/photogallery/detail_na_ratanovy_nabytok.jpg" itemprop="contentUrl" data-size="1000x750">
+                                    <img src="https://raw.githubusercontent.com/soucik/ChatkaKatka/dev/images/photogallery/detail_na_ratanovy_nabytok_tn.jpg" itemprop="thumbnail" alt="Detail na ratanový nábytok" />
+                                </a>
+                                <figcaption itemprop="caption description">Detail na ratanový nábytok</figcaption>
+                            </figure>
+                            <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                                <a href="https://raw.githubusercontent.com/soucik/ChatkaKatka/dev/images/photogallery/samostatna_postel.jpg" itemprop="contentUrl" data-size="1000x750">
+                                    <img src="https://raw.githubusercontent.com/soucik/ChatkaKatka/dev/images/photogallery/samostatna_postel_tn.jpg" itemprop="thumbnail" alt="Samostatná postel" />
+                                </a>
+                                <figcaption itemprop="caption description">Samostatná postel</figcaption>
+                            </figure>
+                            <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                                <a href="https://raw.githubusercontent.com/soucik/ChatkaKatka/dev/images/photogallery/kuchyna_s_drezom.jpg" itemprop="contentUrl" data-size="1000x750">
+                                    <img src="https://raw.githubusercontent.com/soucik/ChatkaKatka/dev/images/photogallery/kuchyna_s_drezom_tn.jpg" itemprop="thumbnail" alt="Kuchyňa s drezom" />
+                                </a>
+                                <figcaption itemprop="caption description">Kuchyňa s drezom</figcaption>
+                            </figure>
+                            <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                                <a href="https://raw.githubusercontent.com/soucik/ChatkaKatka/dev/images/photogallery/kupelna_s_toaletou.jpg" itemprop="contentUrl" data-size="1000x750">
+                                    <img src="https://raw.githubusercontent.com/soucik/ChatkaKatka/dev/images/photogallery/kupelna_s_toaletou_tn.jpg" itemprop="thumbnail" alt="Kúpelňa s toaletou" />
+                                </a>
+                                <figcaption itemprop="caption description">Kúpelňa s toaletou</figcaption>
+                            </figure>
+                            <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                                <a href="https://raw.githubusercontent.com/soucik/ChatkaKatka/dev/images/photogallery/sprchovy_kut_v_kupelni.jpg" itemprop="contentUrl" data-size="562x750">
+                                    <img src="https://raw.githubusercontent.com/soucik/ChatkaKatka/dev/images/photogallery/sprchovy_kut_v_kupelni_tn.jpg" itemprop="thumbnail" alt="Sprchový kút v kúpeľni" />
+                                </a>
+                                <figcaption itemprop="caption description">Sprchový kút v kúpeľni</figcaption>
+                            </figure>
+                            <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                                <a href="https://raw.githubusercontent.com/soucik/ChatkaKatka/dev/images/photogallery/pohlad_z_chaty_na_zahradu.jpg" itemprop="contentUrl" data-size="562x750">
+                                    <img src="https://raw.githubusercontent.com/soucik/ChatkaKatka/dev/images/photogallery/pohlad_z_chaty_na_zahradu_tn.jpg" itemprop="thumbnail" alt="Pohľad z chaty na záhradu" />
+                                </a>
+                                <figcaption itemprop="caption description">Pohľad z chaty na záhradu</figcaption>
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 inner">
+                    <h4>Copyright
+                        <a href="http://www.palino.cz/" target="blank">Palino</a> © 2018. Created with
+                        <a href="http://www.flaticon.com/" target="blank">flaticons</a>.
+                    </h4>
+                </div>
             </div>
-          </div>
-        </div>
 
-        <div class="col-sm-12 inner">
-          <h4>Copyright
-            <a href="http://www.palino.cz/" target="blank">Palino</a> © 2018. Created with
-            <a href="http://www.flaticon.com/" target="blank">flaticons</a>.
-          </h4>
         </div>
-      </div>
-
-    </div>
-    <!-- <div id="chatWindow" class="row collapse">
+        <!-- <div id="chatWindow" class="row collapse">
       <div id="chatHeader">Chat
       </div>
       <div id="activeContent">
@@ -475,54 +458,54 @@
       </div>
     </div>
     <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#chatWindow" id="questionButton">Mám otázku</button> -->
-  </div>
-  <!-- PhotoSwipe -->
-  <!-- Root element of PhotoSwipe. Must have class pswp. -->
-  <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
-    <!-- Background of PhotoSwipe. 
-           It's a separate element, as animating opacity is faster than rgba(). -->
-    <div class="pswp__bg"></div>
-    <!-- Slides wrapper with overflow:hidden. -->
-    <div class="pswp__scroll-wrap">
-      <!-- Container that holds slides. PhotoSwipe keeps only 3 slides in DOM to save memory. -->
-      <!-- don't modify these 3 pswp__item elements, data is added later on. -->
-      <div class="pswp__container">
-        <div class="pswp__item"></div>
-        <div class="pswp__item"></div>
-        <div class="pswp__item"></div>
-      </div>
-      <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
-      <div class="pswp__ui pswp__ui--hidden">
-        <div class="pswp__top-bar">
-          <!--  Controls are self-explanatory. Order can be changed. -->
-          <div class="pswp__counter"></div>
-          <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
-          <button class="pswp__button pswp__button--share" title="Share"></button>
-          <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
-          <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
-
-          <!-- element will get class pswp__preloader--active when preloader is running -->
-          <div class="pswp__preloader">
-            <div class="pswp__preloader__icn">
-              <div class="pswp__preloader__cut">
-                <div class="pswp__preloader__donut"></div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
-          <div class="pswp__share-tooltip"></div>
-        </div>
-        <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
-        </button>
-        <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
-        </button>
-        <div class="pswp__caption">
-          <div class="pswp__caption__center"></div>
-        </div>
-      </div>
     </div>
-  </div>
+    <!-- PhotoSwipe -->
+    <!-- Root element of PhotoSwipe. Must have class pswp. -->
+    <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+        <!-- Background of PhotoSwipe. 
+           It's a separate element, as animating opacity is faster than rgba(). -->
+        <div class="pswp__bg"></div>
+        <!-- Slides wrapper with overflow:hidden. -->
+        <div class="pswp__scroll-wrap">
+            <!-- Container that holds slides. PhotoSwipe keeps only 3 slides in DOM to save memory. -->
+            <!-- don't modify these 3 pswp__item elements, data is added later on. -->
+            <div class="pswp__container">
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+            </div>
+            <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+            <div class="pswp__ui pswp__ui--hidden">
+                <div class="pswp__top-bar">
+                    <!--  Controls are self-explanatory. Order can be changed. -->
+                    <div class="pswp__counter"></div>
+                    <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+                    <button class="pswp__button pswp__button--share" title="Share"></button>
+                    <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+                    <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                    <!-- element will get class pswp__preloader--active when preloader is running -->
+                    <div class="pswp__preloader">
+                        <div class="pswp__preloader__icn">
+                            <div class="pswp__preloader__cut">
+                                <div class="pswp__preloader__donut"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                    <div class="pswp__share-tooltip"></div>
+                </div>
+                <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+        </button>
+                <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+        </button>
+                <div class="pswp__caption">
+                    <div class="pswp__caption__center"></div>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>
